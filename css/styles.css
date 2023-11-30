@@ -11474,7 +11474,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footer .foot_mark_wrap {
   overflow: hidden;
   padding: 23px 0 20px;
-  border-top: 1px solid #e6e6e6;
+  /* border-top: 1px solid #e6e6e6; */
 }
 .footer .address_info {
   display: inline-block;
@@ -11591,7 +11591,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   border-radius: 50%;
   background-color: #d71827;
   position: absolute;
-  top: 48%;
+  top: 48px;
   left: 18px;
 }
 
