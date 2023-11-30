@@ -11620,17 +11620,16 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 96px;
   height: 96px;
   display: block;
-}
-.floating_btn ul li a::before {
-  width: 0;
-  height: 96px;
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
+
+  background: linear-gradient(90deg, transparent 50%, #2a3292 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.5s ease;
   border-radius: 16px;
-  transition: 0.5s;
 }
+.floating_btn ul li a:hover {
+  background-position: -100% 0;
+}
+
 .floating_btn ul li a span {
   display: block;
   font-size: 14px;
