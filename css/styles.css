@@ -11586,12 +11586,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   transform: translateY(-50%);
   font-size: 17px;
-  line-height: 25px;
+  line-height: 22px;
   color: #fff;
   border-radius: 50%;
   background-color: #d71827;
   position: absolute;
-  top: 48px;
+  top: 50px;
   left: 18px;
 }
 
